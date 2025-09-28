@@ -1,0 +1,28 @@
+---
+const { class: className, ...props } = Astro.props
+---
+
+<svg
+  class={className}
+  fill="currentColor"
+  viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg"
+  {...props}
+>
+  <path
+    d="M5.016 20.476l.639-11.647L12 5.892l6.345 2.937.639 11.647L12 24z"
+    fill="#FFA000"
+  />
+  <path
+    d="M5.016 20.476L12 24l6.984-3.524.639-11.647L12 5.892z"
+    fill="#FF6F00"
+  />
+  <path
+    d="M12 5.892L5.655 8.829l6.345-2.937z"
+    fill="#FF8F00"
+  />
+  <path
+    d="M12 5.892l6.345 2.937L12 5.892z"
+    fill="#FF6F00"
+  />
+</svg>
